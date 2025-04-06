@@ -1,0 +1,9 @@
+[package]
+name = "basic-layout"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.35", features = ["derive"] }
+wayland-client = "0.31.8"
+wayland-scanner = "0.31.6"
